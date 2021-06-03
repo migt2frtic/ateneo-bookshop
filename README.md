@@ -18,10 +18,7 @@ https://lit-html.polymer-project.org/guide
 ## Quick start
 
 Run from command line
-
-```
-git clone https://github.com/vicdata4/lit-course
-
+ejemplode algo
 cd ateneo-bookshop
 ```
 
