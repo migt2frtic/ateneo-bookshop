@@ -52,7 +52,7 @@ class HomeView extends LitElement {
   renderRecomendaciones() {
     return html`
       <section aria-label="Web design disciplines" tabindex="0">
-        <<h2 class="section-title centered">Recomendaciones</h2>
+        <h2 class="section-title centered">Recomendaciones</h2>
         </div>
       </section>
     `;

@@ -44,4 +44,8 @@ export const navList = [
     name: "Cesta",
     path: '/cesta-view',
   },
+  {
+    name: "Registro",
+    path: '/register-view',
+  },
 ];

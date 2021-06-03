@@ -151,3 +151,70 @@ margin: 0;
 background-image: none;
 margin-left: 0;}
 `;
+
+export const registerStyles = css`
+.hall {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: var(--main-height);
+}
+.panel-formulario{
+  position: relative;
+  padding: 15px
+  border: 1px solid #dfdfdf;
+  box-shadow: none;
+  width: 500px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  overflow: hidden;
+  background-color: #fff;
+  }
+  .panel {
+    position: relative;
+    padding: 15px;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 32rem;
+  padding: 2rem;
+  border: 0.1rem #c0c0c0 solid;
+  border-radius: 0.5rem;
+  list-style-type: none;
+}
+  .form-container li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  input {
+    padding: 1rem;
+    border: 0.1rem #c0c0c0 solid;
+    border-radius: 0.5rem;
+  }
+  .button {
+    padding: 1rem;
+    border: 0.1rem #808080 solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+  }
+  .button.primary {
+    background-color: #f0c040;
+  }
+  .button.secondary {
+    background-color: #f0f0f0;
+  }
+  .text-center {
+    text-align: center;
+  }
+
+`;

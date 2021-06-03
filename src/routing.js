@@ -7,7 +7,7 @@ import './views/login-view';
 import './views/cesta-view';
 import './views/manga-view';
 import './views/form-example-view';
-import './views/registro';
+import './views/register-view';
 import './views/not-found-view';
 
 export const routing = function() {
@@ -22,7 +22,7 @@ export const routing = function() {
     { path: '/form-example-view', component: 'form-example-view' },
     { path: '/cesta-view', component: 'cesta-view' },
     { path: '/login-view', component: 'logIn-view' },
-    { path: '/registro', component: 'registro' },
+    { path: '/register-view', component: 'register-view' },
 
     { path: '(.*)', component: 'not-found-view' }
 
